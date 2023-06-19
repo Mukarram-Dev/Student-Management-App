@@ -1,0 +1,237 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityProfile">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/bar"
+        android:background="?android:attr/windowBackground">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@drawable/bar_background">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="15dp"
+                    android:textSize="28sp"
+                    android:fontFamily="@font/muli_bold"
+                    android:textColor="@color/white"
+                    android:layout_toEndOf="@id/close"/>
+
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/bar">
+
+        <LinearLayout
+            android:id="@+id/top_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_Photo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:padding="5dp"
+
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile" />
+
+                <TextView
+                    android:id="@+id/txt_nameUser"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_Photo"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:text="Mukarram Ali"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+
+
+            <Button
+                android:id="@+id/edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_background"
+                android:drawableTop="@drawable/ic_edit"
+                android:text="Edit Profile"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/middle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:paddingTop="16dp"
+                android:padding="6dp">
+                <TextView
+                    android:id="@+id/text_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginTop="25dp"
+                    android:text="bossmukaram@gmail.com"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_baseline_email_black"
+
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/From"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="From Sargodha"
+                    android:visibility="gone"
+                    android:drawableStart="@drawable/ic_location"
+                    android:textSize="18sp"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/black"/>
+                <Space
+                    android:layout_width="match_parent"
+
+                    android:layout_height="20dp"/>
+                <TextView
+
+                    android:id="@+id/Education"
+                    android:layout_width="match_parent"
+                    android:text="Studying BS-CS"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:drawableStart="@drawable/ic_school"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+                <TextView
+                    android:id="@+id/cnic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:visibility="gone"
+                    android:text="38401-7770292-7"
+                    android:drawableStart="@drawable/ic_baseline_credit_card_24"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:text="0306-6792485"
+                    android:visibility="gone"
+                    android:drawableStart="@drawable/ic_baseline_phone_24"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:text="Hujjan Tehsil Kotmomin"
+                    android:visibility="gone"
+                    android:drawableStart="@drawable/ic_baseline_home_24"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/semester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:text="Semester 1"
+                    android:visibility="gone"
+                   android:layout_marginStart="28dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:text="Section A"
+                    android:visibility="gone"
+                    android:layout_marginStart="28dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

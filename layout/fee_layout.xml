@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E6E6E6"
+    app:circularflow_radiusInDP="30dp"
+    app:cardCornerRadius="30dp"
+    app:circularflow_defaultRadius="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="15dp"
+        android:background="@drawable/card_background"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fee"
+                android:textSize="24sp"
+                android:id="@+id/Name"
+                android:fontFamily="@font/muli_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_table"
+                android:id="@+id/attend"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#A3000000"
+                android:layout_below="@id/Name"
+                android:id="@+id/divide2"
+                />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due Fee "
+                android:textSize="22sp"
+                android:id="@+id/dueFee"
+                android:fontFamily="@font/muli_bold"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:layout_below="@id/divide2"
+                android:layout_marginStart="20dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="24sp"
+                android:id="@+id/rupees"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/muli_bold"
+                android:layout_below="@id/divide2"
+                android:textColor="@color/white"
+                android:layout_toEndOf="@id/dueFee"
+                android:layout_centerInParent="true"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(PKR)"
+                android:id="@+id/pkr"
+                android:textStyle="bold"
+                android:layout_below="@id/rupees"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/rupees"
+
+                />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

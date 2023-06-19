@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#E6E6E6"
+    app:circularflow_radiusInDP="30dp"
+    app:cardCornerRadius="10dp"
+    app:circularflow_defaultRadius="20dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="15dp"
+        android:background="@drawable/card_background"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction to Computer"
+                android:textSize="24sp"
+                android:id="@+id/CourseName"
+                android:fontFamily="@font/muli_bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Hours: Cr.3.0"
+                android:textSize="18sp"
+                android:id="@+id/crHour"
+                android:fontFamily="@font/muli"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enroll"
+                android:id="@+id/Enroll"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button_background"
+                android:textSize="18sp"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

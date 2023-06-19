@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "9105121279",
+    "project_id": "superioruniversity-53283",
+    "storage_bucket": "superioruniversity-53283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9105121279:android:a07b66a9f5e31f30c111ca",
+        "android_client_info": {
+          "package_name": "com.mukarram.superioruniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9105121279-7707kmn90anibh2rrrn9plm47miq90bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3G_mhosXKsaW246vZ5AWqdwlqgK_70x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9105121279-7707kmn90anibh2rrrn9plm47miq90bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

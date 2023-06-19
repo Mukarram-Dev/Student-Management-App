@@ -1,0 +1,152 @@
+{
+  "Student": {
+    "101151630488846190481": {
+      "Address": "Dubai Town Lahore",
+      "Assessments": {
+        "Programming Fundamentals": {
+          "Course": "Programming Fundamentals",
+          "Gpa": 2,
+          "Grade": "C",
+          "Marks": "60"
+        }
+      },
+      "City": "Bhalwal",
+      "Cnic": "3840177702927",
+      "Degree": "BS Cyber-Security",
+      "Enrolled Courses": {
+        "-NIpRb1pjnIBj3SdFKGw": {
+          "Course_Name": "Programming Fundamentals",
+          "Credit_Hours": 4
+        }
+      },
+      "Number": "030666792485",
+      "Section": "Section C",
+      "Semester": "4th",
+      "Student Fee": 44000,
+      "personEmail": "plzvictor3@gmail.com",
+      "personId": "101151630488846190481",
+      "personName": "Mukarram Boss",
+      "personPhoto": "https://firebasestorage.googleapis.com/v0/b/superioruniversity-53283.appspot.com/o/Profile%2F%5BB%40fc84789jpg?alt=media&token=f33824ad-d5a1-46a1-8e6e-e3a87a5018e2"
+    },
+    "114493299939009964155": {
+      "Address": "barkat market Lahore",
+      "Assessments": {
+        "Data Structure": {
+          "Course": "Data Structure",
+          "Gpa": 3.66,
+          "Grade": "A",
+          "Marks": "80"
+        },
+        "Design Analysis and Algorithm": {
+          "Course": "Design Analysis and Algorithm",
+          "Gpa": 3.66,
+          "Grade": "A",
+          "Marks": "87"
+        },
+        "Operating System": {
+          "Course": "Operating System",
+          "Gpa": 3.66,
+          "Grade": "A",
+          "Marks": "83"
+        },
+        "Programming Fundamentals": {
+          "Course": "Programming Fundamentals",
+          "Gpa": 3,
+          "Grade": "B",
+          "Marks": "75"
+        }
+      },
+      "City": "Sargodha",
+      "Cnic": "3094046077",
+      "Degree": "BS Cyber-Security",
+      "Enrolled Courses": {
+        "-NIjn3buqTh9WD7fyQe-": {
+          "Course_Name": "Data Structure",
+          "Credit_Hours": 4
+        },
+        "-NIjnHsOal__M1asrboe": {
+          "Course_Name": "Computer Assembly Language",
+          "Credit_Hours": 4
+        },
+        "-NIjnI0d55ls-bGxxwPk": {
+          "Course_Name": "Operating System",
+          "Credit_Hours": 4
+        },
+        "-NIjnIAiEGcApjcCBtkl": {
+          "Course_Name": "Design Analysis and Algorithm",
+          "Credit_Hours": 3
+        },
+        "-NIpbuKBHlzTfTixx52f": {
+          "Course_Name": "OOP(Object-Oriented-Programming)",
+          "Credit_Hours": 4
+        },
+        "-NIpc3dDYUORsZDXwGGh": {
+          "Course_Name": "Pak-Study",
+          "Credit_Hours": 2
+        }
+      },
+      "Number": "3066792485",
+      "Section": "Section E",
+      "Semester": "5th",
+      "Student Fee": 231000,
+      "Time Table": {
+        "Friday": {
+          "-NIpOd-Ll4Lr7Nf9R7n9": {
+            "Course": "Data Structure",
+            "Day": "Friday",
+            "EndTime": "12:40 AM",
+            "Room": "Lecture-Room 4",
+            "StartTime": "10:40 AM",
+            "Teacher": "M.Imtiaz"
+          }
+        },
+        "Monday": {
+          "-NIjnbnhXqQ6v7VoJ1kX": {
+            "Course": "Computer Assembly Language",
+            "Day": "Monday",
+            "EndTime": "9:30 AM",
+            "Room": "Lecture-Room 5",
+            "StartTime": "8:36 AM",
+            "Teacher": "Muhammad Jameel"
+          }
+        },
+        "Tuesday": {
+          "-NIjni7xTJUHASEORFwD": {
+            "Course": "OOP(Object-Oriented-Programming)",
+            "Day": "Tuesday",
+            "EndTime": "10:30 AM",
+            "Room": "Lecture-Room 7",
+            "StartTime": "9:30 AM",
+            "Teacher": "M.Imtiaz"
+          }
+        },
+        "Wednesday": {
+          "-NIjnn-TXc3J5Aso8WU_": {
+            "Course": "Data Structure",
+            "Day": "Wednesday",
+            "EndTime": "11:30 AM",
+            "Room": "Lecture-Room 9",
+            "StartTime": "10:30 AM",
+            "Teacher": "Humaira Muqadas"
+          }
+        }
+      },
+      "personEmail": "bcsm-f20-362@superior.edu.pk",
+      "personId": "114493299939009964155",
+      "personName": "Mukarram Ali"
+    },
+    "115644027851181041508": {
+      "Address": "",
+      "City": "",
+      "Cnic": "",
+      "Degree": "",
+      "Number": "",
+      "Section": "",
+      "Semester": "",
+      "personEmail": "bossmukaram@gmail.com",
+      "personId": "115644027851181041508",
+      "personName": "Mukarram Ali",
+      "personPhoto": "https://lh3.googleusercontent.com/a/AEdFTp4Se6Q5l4yOw1BZDut-WYCgOdzEVFZH0mD6dQ6UWA=s96-c"
+    }
+  }
+}
